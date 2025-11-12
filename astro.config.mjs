@@ -10,6 +10,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   compressHTML: true,
   site: 'https://pianteverdi.github.io/web/',
+  base: '/my-repo'
   integrations: [compress(), icon(), mdx(), sitemap()],
   vite: {
     css: {
